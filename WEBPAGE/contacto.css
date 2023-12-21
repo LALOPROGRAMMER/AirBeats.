@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Georgia, 'Times New Roman', Times;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-image: url(./assets/background.jpg);
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: transparent;
+    /* Fondo oscuro */
+    color: #333;
+    /* Texto en color claro */
+    padding: 40px 20px;
+    /* Espaciado interior en la sección */
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.rectangulo {
+    border: 5px solid slategray;
+    /* Borde blanco */
+    border-radius: 90px;
+    /* Esquinas redondeadas */
+    padding: 40px;
+    background-color: transparent;
+}
+
+.seccion-titulo {
+    font-size: 20px;
+    /* Tamaño del título */
+    padding-top: -50px;
+}
+
+.descripcion {
+    font-size: 18px;
+    /* Tamaño del texto de descripción */
+    margin-top: 10px;
+    /* Espaciado superior */
+    padding-bottom: 30px;
+}
+
+/* Estilos para el botón de contacto */
+a {
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: steelblue;
+    border: 2px  none;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media screen and (max-width: 768px) {
+    .rectangulo {
+        padding: 10px;
+        /* Espaciado interior reducido en pantallas pequeñas */
+    }
+
+    .seccion-titulo {
+        font-size: 20px;
+        /* Tamaño de fuente reducido en pantallas pequeñas */
+    }
+
+    .descripcion {
+        font-size: 16px;
+        /* Tamaño de fuente reducido en pantallas pequeñas */
+        margin-top: 5px;
+        /* Espaciado superior reducido en pantallas pequeñas */
+    }
+
+    button {
+        font-size: 16px;
+        /* Tamaño de fuente reducido en pantallas pequeñas */
+    }
+}

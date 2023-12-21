@@ -1,0 +1,87 @@
+/* Estilos Generales */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: teal; /* Establece el color del texto que desees */
+    transition: 0.5s;
+}
+
+/* TERMINAR EL ESTILO DE LA ETIQUETA NAV, TAMBIÉN, TERMINAR ESTILOS EN GENERAL DE NUESTRA PÁGINA WEB*/
+
+nav a:hover{
+    color: #333;
+    transition: 0.5s;
+}
+
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer{
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+#productos-destacados{
+    margin-top: 20px;
+}
+
+.producto{
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.producto img{
+    max-width: 100px;
+}
+
+.producto h2{
+    margin: 5px 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.imagen-producto {
+    border: 1.9px solid black; /* Un borde de 2 píxeles sólido de color gris oscuro */
+    border-radius: 9px;    /* Esquinas redondeadas */
+    max-width: 100px;     /* Ancho máximo de la imagen */
+    height: auto;          /* Altura automática para mantener la proporción */
+}
+
+@media screen and (max-width: 480px) {
+    nav li {
+        display: block;
+        margin-right: 0;
+    }
+}
